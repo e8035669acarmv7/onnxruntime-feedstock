@@ -20,6 +20,8 @@ source:
       - fix_missing_cuda_definition.patch
       # Workaround for https://github.com/microsoft/onnxruntime/issues/13225
       - comment_InterThreadPoolWithDenormalAsZero.patch  # [osx]
+      # Fix armv7l https://github.com/microsoft/onnxruntime/issues/16387
+      - 0001-Disable-failing-tests-on-ARM32.patch
 
 
 build:

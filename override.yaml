@@ -1,0 +1,11 @@
+suffix:
+- ''
+cuda_compiler:
+- None
+cuda_compiler_version:
+- None
+numpy:
+- '1.24'
+- '1.24'
+- '1.24'
+- '1.24'
